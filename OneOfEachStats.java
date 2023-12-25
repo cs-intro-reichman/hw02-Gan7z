@@ -46,6 +46,7 @@ public class OneOfEachStats {
 					break;
 				case 3:
 					familyOfThree++;
+					break;
 				default:
 					familyOfFourPlus++;
 					break;
@@ -73,5 +74,6 @@ public class OneOfEachStats {
 				System.out.println("The most common number of children is 3");
 			}
 		}    
+		System.out.println(seed);
 	}
 }

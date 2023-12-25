@@ -39,6 +39,7 @@ public class OneOfEachStats1 {
 					break;
 				case 3:
 					familyOfThree++;
+					break;
 				default:
 					familyOfFourPlus++;
 					break;
