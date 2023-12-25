@@ -5,6 +5,25 @@
  */
 public class OneOfEach {
 	public static void main (String[] args) {
-		//// Put your code here
+		int childCount = 0;
+		boolean boy = false;
+		boolean girl = false;
+		while( boy == false || girl == false )
+		{
+			double rand = Math.random();
+			if (rand >= 0.5)
+			{
+				childCount++;
+				boy = true;
+				System.out.print("b ");
+			}
+			else
+			{				
+				childCount++;
+				girl = true;
+				System.out.print("g ");
+			}				
+		}
+		System.out.println("\nYou made it... and you now have " + childCount + " children.");
 	}
 }
